@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Survey</title>
+</head>
+<body>
+    <h1 id="title">Survey about games</h1>
+    <p id="description">This is a survey about videogames</p>
+    <form id="survey-form">
+        <label id="name-label">Name:
+            <input id="name" type="text" placeholder="Name" required>
+        </label>
+        <label id="email-label">Email:
+            <input id="email" type="email" placeholder="Email" required>
+        </label>
+        <label id="number-label">Number of played games:
+            <input id="number" type="number" placeholder="Number" min="5" max="10000" required>
+        </label>
+        <select id="dropdown">
+            <option  name="action" value="action">Genre</option>
+            <option  name="action" value="jrpg">JRPG</option>
+            <option  name="action" value="rpg">RPG</option>
+            <option  name="action" value="adventure">Adventure</option>
+            <option  name="action" value="shooter">Shooter</option>
+        </select>
+        <label>When did you start playing?
+        <input name="decade" value="decade" type="radio">Before 2000
+        <input name="decade" value="decade" type="radio">After 2000
+        </label> 
+        
+        <label class="inline">
+            Tell us about you:
+        <input value="male" type="checkbox">Male
+        <input value="female" type="checkbox">Female
+        <input value="other" type="checkbox">Other
+        </label>
+        <label>
+        <textarea placeholder="Your favourite game and why" name="" id="" cols="30" rows="10"></textarea>
+        </label>
+        <button id="submit"  type="submit">Submit</button>
+        
+    </form>
+    
+</body>
+</html>

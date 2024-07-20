@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-normal:  font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --font-bold:  font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    background-color: #008148;
+    font: var(--font-bold);
+    font-size: 20px;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+header a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    background-color: #F97068;
+    color: antiquewhite;
+}
+
+.about{
+    text-align: center;
+    padding: 200px;
+    background-color: #DDCA7D;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.projects{
+    padding: 200px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #F97068;
+}
+
+.projects a{
+    display: flex;
+    font-family: var(--font-normal);
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.projects a:hover{
+    color: #008148;
+}
+.projects div{
+    margin-bottom: 200px;
+}
+
+iframe{
+    background-color: white;
+}
+
+footer{
+    padding: 100px;
+    background-color: #DDCA7D;
+}
+
+footer a{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: rgb(126, 126, 22);
+}
+
+/* .fa-linkedin{
+    display: flex;
+    justify-content: right;
+} */
+
+.fa-github{
+    margin-right: 33px;
+}
+
+.fa-envelope{
+    margin-right: 66px;
+}
+
+
+
