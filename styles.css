@@ -66,6 +66,7 @@ header a:hover{
 .projects a:hover{
     color: #008148;
 }
+
 .projects div{
     margin-bottom: 200px;
 }
@@ -89,11 +90,6 @@ footer a{
 footer a:hover{
     color: rgb(126, 126, 22);
 }
-
-/* .fa-linkedin{
-    display: flex;
-    justify-content: right;
-} */
 
 .fa-github{
     margin-right: 33px;
