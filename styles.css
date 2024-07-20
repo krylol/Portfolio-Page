@@ -103,6 +103,15 @@ footer a:hover{
     p{
         font-size: 15px;
     }
+
+    .projects{
+        padding: 200px;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 100%;
+        background-color: #F97068;
+    }
 }
 
 
